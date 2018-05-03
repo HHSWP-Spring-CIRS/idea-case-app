@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3eccba1d-6f80-4fd2-b6e5-772b390561c5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Reademe.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reademe.md" afterDir="false" />
     </list>
+=======
+    <list default="true" id="3eccba1d-6f80-4fd2-b6e5-772b390561c5" name="Default" comment="" />
+>>>>>>> f2c9cf3e5cb94c4aeddefd15e6af75c07d8db172
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +62,13 @@
         <entry file="file://$PROJECT_DIR$/Reademe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
+<<<<<<< HEAD
               <first_editor relative-caret-position="38">
                 <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="112" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
+>>>>>>> f2c9cf3e5cb94c4aeddefd15e6af75c07d8db172
               </first_editor>
               <second_editor />
             </state>
@@ -239,12 +248,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525348232569</updated>
+<<<<<<< HEAD
       <workItem from="1525348234040" duration="10559000" />
+=======
+      <workItem from="1525348234040" duration="10165000" />
+>>>>>>> f2c9cf3e5cb94c4aeddefd15e6af75c07d8db172
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="10559000" />
+=======
+    <option name="totallyTimeSpent" value="10165000" />
+>>>>>>> f2c9cf3e5cb94c4aeddefd15e6af75c07d8db172
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-4" width="1920" height="1084" extended-state="6" />
@@ -517,8 +534,13 @@
     <entry file="file://$PROJECT_DIR$/Reademe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+<<<<<<< HEAD
           <first_editor relative-caret-position="38">
             <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="112" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
+>>>>>>> f2c9cf3e5cb94c4aeddefd15e6af75c07d8db172
           </first_editor>
           <second_editor />
         </state>
