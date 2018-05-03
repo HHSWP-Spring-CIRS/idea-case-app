@@ -34,22 +34,22 @@ class ShowIdea extends Component {
 
     return (
       <div>
-        <div className="card" key={idea.id}>
-          <div className="card-content">
-            <span className="card-title">{idea.title}</span>
+        <div key={idea.id}>
+          <div>
+            <span>{idea.title}</span>
             <p>{idea.description}</p>
             <p>Budget: {idea.budget}</p>
             <p>People needed: {idea.peopleNeeded}</p>
-            <p className="right">
+            <p>
               Sent On: {new Date(idea.creationDate).toLocaleDateString()}
             </p>
             <br />
-            <p className="right">
+            <p>
               Last Modified: {idea.lastModifed}
             </p>
           </div>
-          <div className="card-action">
-            <button className="btn" onClick={this.props.history.goBack}>
+          <div>
+            <button onClick={this.props.history.goBack}>
               Back
             </button>
             <Link
@@ -58,7 +58,7 @@ class ShowIdea extends Component {
             >
               Edit
             </Link>
-            <button className="red darken-3 btn" onClick={this.onDeleteClick}>
+            <button onClick={this.onDeleteClick} style={{marginLeft:15}}>
               Delete
             </button>
           </div>

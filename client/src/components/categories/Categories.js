@@ -13,20 +13,20 @@ class Categories extends Component {
   renderCategories() {
     return _.map(this.props.categories, category => {
       return (
-        <div className="card blue-grey darken-1" key={category.id}>
-          <div className="card-content white-text">
-            <span className="card-title">{category.title}</span>
+        <div key={category.id}>
+          <div>
+            <span>{category.title}</span>
             <p>
-              Budget hahah:{' '}
+              Budget:{' '}
               {!category.budgetLimit ? 'Not specified' : category.budgetLimit}
             </p>
             <p>Active: {category.isActive === 1 ? 'Yes' : 'No'}</p>
           </div>
-          <div className="card-action">
+          <div>
             <Link to={`/categories/update/${category.id}`}>Edit</Link>
             <button
-              className="red darken-3 btn"
               onClick={() => this.props.deleteCategory(category.id)}
+              style={{marginLeft:15}}
             >
               Delete
             </button>
@@ -40,9 +40,9 @@ class Categories extends Component {
     return (
       <div>
         {this.renderCategories()}
-        <div className="fixed-action-btn">
-          <Link to="/categories/new" className="btn-floating btn-large blue">
-            <i className="material-icons">add</i>
+        <div>
+          <Link to="/categories/new">
+            <i>Add</i>
           </Link>
         </div>
       </div>

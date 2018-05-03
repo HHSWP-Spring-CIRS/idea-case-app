@@ -26,6 +26,7 @@ export const fetchCategory = id => async dispatch => {
 
 export const createCategory = (category, history) => async dispatch => {
   const res = await axios.post(`${ROOT_URL}/api/categories`, category);
+  console.log(category);
 
   history.push('/categories');
   dispatch({ type: CREATE_CATEGORY, payload: res.data });

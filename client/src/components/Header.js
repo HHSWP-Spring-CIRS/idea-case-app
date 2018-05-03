@@ -5,11 +5,8 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div className="nav-wrapper grid">
-          <Link to="/" className="brand-logo center">
-            Idea Case App
-          </Link>
-          <ul className="left">
+        <div>
+          <ul>
             <li>
               <Link to="/">Ideas</Link>
             </li>

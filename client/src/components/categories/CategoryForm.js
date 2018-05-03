@@ -49,12 +49,11 @@ class CategoryForm extends Component {
         </h3>
         <form onSubmit={handleSubmit}>
           {this.renderFields()}
-          <Link to="/categories" className="red btn-flat white-text">
+          <Link to="/categories">
             Cancel
           </Link>
-          <button type="submit" className="teal btn-flat right white-text">
+          <button type="submit" style={{paddingLeft:15}}>
             Submit
-            <i className="material-icons right">done</i>
           </button>
         </form>
       </div>

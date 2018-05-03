@@ -13,21 +13,21 @@ class Ideas extends Component {
   renderList = () =>
     _.map(this.props.ideas, idea => {
       return (
-        <div className="card" key={idea.id}>
-          <div className="card-content">
+        <div key={idea.id}>
+          <div>
             <Link to={`/ideas/${idea.id}`}>
-              <span className="card-title">{idea.title}</span>
+              <span>{idea.title}</span>
               <p>{idea.description}</p>
-              <p className="right">
+              <p>
                 Sent On: {new Date(idea.creationDate).toLocaleDateString()}
               </p>
             </Link>
           </div>
-          <div className="card-action">
+          <div>
             <Link to={`/ideas/update/${idea.id}`}>Edit</Link>
             <button
-              className="red darken-3 btn"
               onClick={() => this.props.deleteIdea(idea.id)}
+              style={{marginLeft:15}}
             >
               Delete
             </button>

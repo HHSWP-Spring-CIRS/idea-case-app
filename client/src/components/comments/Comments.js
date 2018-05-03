@@ -6,7 +6,7 @@ const Comments = ({ comments }) => {
   const renderComments = () => {
     if (Object.keys(comments).length) {
       const list = _.map(comments, (comment, index) => (
-        <li className="collection-item" key={index}>
+        <li key={index}>
           <div className="right">
             {new Date(comment.commentTimeStamp).toLocaleDateString()}
           </div>
@@ -14,7 +14,7 @@ const Comments = ({ comments }) => {
           <div>{comment.commentLine}</div>
         </li>
       ));
-      return <ul className="collection">{list}</ul>;
+      return <ul>{list}</ul>;
     } else {
       return <p>No comments</p>;
     }

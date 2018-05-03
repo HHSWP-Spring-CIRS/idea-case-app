@@ -60,12 +60,11 @@ class IdeaForm extends Component {
         <form onSubmit={handleSubmit}>
           {this.renderFields()}
 
-          <Link to="/" className="red btn-flat white-text">
+          <Link to="/">
             Cancel
           </Link>
-          <button type="submit" className="teal btn-flat right white-text">
+          <button type="submit" style={{marginLeft:15}}>
             Submit
-            <i className="material-icons right">done</i>
           </button>
         </form>
       </div>

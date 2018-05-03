@@ -43,12 +43,11 @@ class MemberForm extends Component {
         </h3>
         <form onSubmit={handleSubmit}>
           {this.renderFields()}
-          <Link to="/members" className="red btn-flat white-text">
+          <Link to="/members">
             Cancel
           </Link>
-          <button type="submit" className="teal btn-flat right white-text">
+          <button type="submit" style={{marginLeft:15}}>
             Submit
-            <i className="material-icons right">done</i>
           </button>
         </form>
       </div>

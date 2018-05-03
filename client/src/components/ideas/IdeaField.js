@@ -12,7 +12,7 @@ export default ({
       <div>
         <label>{label}</label>
         <input {...input} style={{ marginBottom: '5px' }} type={inputType} />
-        <div className="red-text" style={{ marginBottom: '20px' }}>
+        <div style={{ marginBottom: '20px' }}>
           {touched && error}
         </div>
       </div>
@@ -41,7 +41,7 @@ export default ({
           />
           <label htmlFor="no">No</label>
         </p>
-        <div className="red-text" style={{ marginBottom: '20px' }}>
+        <div style={{ marginBottom: '20px' }}>
           {touched && error}
         </div>
       </div>
@@ -53,7 +53,7 @@ export default ({
         <select {...input} name="categoryId">
           {options}
         </select>
-        <div className="red-text" style={{ marginBottom: '20px' }}>
+        <div style={{ marginBottom: '20px' }}>
           {touched && error}
         </div>
       </div>

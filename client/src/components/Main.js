@@ -7,9 +7,9 @@ class Main extends Component {
     return (
       <div>
         <Ideas />
-        <div className="fixed-action-btn">
+        <div>
           <Link to="/ideas/new" className="btn-floating btn-large red">
-            <i className="material-icons">add</i>
+            <i>add</i>
           </Link>
         </div>
       </div>
