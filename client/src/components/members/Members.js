@@ -38,7 +38,7 @@ class Members extends Component {
         {this.renderMembers()}
         <div>
           <Link to="/members/new">
-            <i>add</i>
+            <i>Add new member</i>
           </Link>
         </div>
       </div>

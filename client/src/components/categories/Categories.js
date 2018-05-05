@@ -42,7 +42,7 @@ class Categories extends Component {
         {this.renderCategories()}
         <div>
           <Link to="/categories/new">
-            <i>Add</i>
+            <i>Add new category</i>
           </Link>
         </div>
       </div>

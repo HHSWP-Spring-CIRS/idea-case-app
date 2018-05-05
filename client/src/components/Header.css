@@ -17,6 +17,9 @@ header {
 header nav {
     display: flex;
     margin-left: -15px;
+    animation: 2s fadein 0.5s forwards;
+    opacity: 0;
+    list-style: none;
 }
 
 header nav li {
