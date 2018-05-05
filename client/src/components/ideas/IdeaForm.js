@@ -53,21 +53,26 @@ class IdeaForm extends Component {
     const { handleSubmit } = this.props;
 
     return (
-      <div>
-        <h3 style={{ marginTop: '1em' }}>
-          {this.props.idea.id ? 'Edit Idea' : 'Add New Idea'}
-        </h3>
-        <form onSubmit={handleSubmit}>
-          {this.renderFields()}
-
-          <Link to="/">
-            Cancel
-          </Link>
-          <button type="submit" style={{marginLeft:15}}>
-            Submit
-          </button>
-        </form>
-      </div>
+      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+        <div className="pa4 black-80">
+          <h3 className="f2 fw6 ph0 mh0"
+            style={{ marginTop: '1em' }}>
+            {this.props.idea.id ? 'Edit Idea' : 'Add New Idea'}
+          </h3>
+          <form onSubmit={handleSubmit}>
+            {this.renderFields()}
+            <button className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+              type="submit" style={{marginLeft:15}}>
+              Submit
+            </button>
+            <div className="lh-copy ph3 pv2 mt3">
+              <Link className="f6 link dim black db pointer" to="/">
+                Cancel
+              </Link>
+            </div>
+          </form>
+        </div>
+      </article>
     );
   }
 }

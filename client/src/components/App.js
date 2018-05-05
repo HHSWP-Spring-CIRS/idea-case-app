@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Particles from 'react-particles-js';
 
 import Main from './Main';
 import IdeaFormPage from './ideas/IdeaFormPage';
@@ -9,13 +10,29 @@ import MemberFormPage from './members/MemberFormPage';
 import Categories from './categories/Categories';
 import CategoryFormPage from './categories/CategoryFormPage';
 import Header from './Header';
+import './App.css';
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 68,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+}
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="container">
+        <Particles className='particles'
+            params={particlesOptions} />          
           <Header />
+          
           <Switch>
             <Route exact path="/" component={Main} />
             <Route exact path="/ideas/new" component={IdeaFormPage} />
@@ -36,6 +53,7 @@ class App extends Component {
               component={MemberFormPage}
             />
           </Switch>
+
         </div>
       </BrowserRouter>
     );
