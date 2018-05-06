@@ -36,9 +36,10 @@ class Members extends Component {
     return (
       <div>
         {this.renderMembers()}
-        <div>
+        <div className="addNew">
           <Link to="/members/new">
-            <i>Add new member</i>
+            <i className="material-icons">person_add</i>
+            <span className="f3"> Add new member</span>
           </Link>
         </div>
       </div>

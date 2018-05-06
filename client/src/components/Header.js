@@ -7,13 +7,13 @@ class Header extends Component {
     return (
       <header>
         <nav>
-              <li className='f3 black bg-animate hover-bg-light-blue pointer'>
+              <li className='f2 black bg-animate hover-bg-light-blue pointer'>
                 <Link to="/">Ideas</Link>
               </li>
-              <li className='f3 black bg-animate hover-bg-light-blue pointer'>
+              <li className='f2 black bg-animate hover-bg-light-blue pointer'>
                 <Link to="/categories">Categories</Link>
               </li>
-              <li className='f3 black bg-animate hover-bg-light-blue pointer'>
+              <li className='f2 black bg-animate hover-bg-light-blue pointer'>
                 <Link to="/members">Members</Link>
               </li>
         </nav>

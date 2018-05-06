@@ -7,9 +7,10 @@ class Main extends Component {
     return (
       <div>
         <Ideas />
-        <div>
-          <Link to="/ideas/new" className="btn-floating btn-large red">
-            <i>add</i>
+        <div className="addNew">
+          <Link to="/ideas/new">
+            <i className="material-icons">add_circle_outline</i>
+            <span className="f3"> Add new idea</span>
           </Link>
         </div>
       </div>

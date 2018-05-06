@@ -40,9 +40,10 @@ class Categories extends Component {
     return (
       <div>
         {this.renderCategories()}
-        <div>
+        <div  className="addNew">
           <Link to="/categories/new">
-            <i>Add new category</i>
+            <i className="material-icons">library_add</i>
+            <span className="f3"> Add new category</span>
           </Link>
         </div>
       </div>

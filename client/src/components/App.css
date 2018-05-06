@@ -1,13 +1,13 @@
 .container {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  .center {
-    display: flex;
-    justify-content: center;
-  }
+.center {
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes fadein {
     100% {
@@ -15,27 +15,29 @@
     }
 }
 
-  a {
-      color: black;
-      text-decoration: none;
-  }
+a {
+    color: black;
+    text-decoration: none;
+}
+ 
+.addNew {
+  display: flex;
+  justify-content: start;
+  margin: 10px;
+  padding: 35px 100px 0;
+}
 
-  i {
-    display: flex;
-    justify-content: flex-left;
-    color: white;
-    margin: 10px;
-    padding: 35px 100px 0;
-    animation: 2.5s fadein 0.5s forwards;
-    opacity: 0;
-  }
+.addNew i,span {
+  color: white;
+  animation: 2s fadein 0.34s forwards;
+  opacity: 0;
+}
 
-  
-  .particles {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  }
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}

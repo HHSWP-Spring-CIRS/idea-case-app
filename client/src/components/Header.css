@@ -4,7 +4,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding: 35px 100px 0;
-    animation: 1s fadein 0.5s forwards;
+    animation: 1.5s fadein 0.05s forwards;
     opacity: 0;
 }
 
@@ -17,7 +17,7 @@ header {
 header nav {
     display: flex;
     margin-left: -15px;
-    animation: 2s fadein 0.5s forwards;
+    animation: 1.2s fadein 0.2s forwards;
     opacity: 0;
     list-style: none;
 }
