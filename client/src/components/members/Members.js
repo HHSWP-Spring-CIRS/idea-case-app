@@ -13,20 +13,27 @@ class Members extends Component {
   renderMembers() {
     return _.map(this.props.members, member => {
       return (
-        <div key={member.id}>
-          <div>
-            <span>{member.userName}</span>
-            <p>{member.email}</p>
-          </div>
-          <div>
-            <Link to={`/members/update/${member.id}`}>Edit</Link>
-            <button
-              onClick={() => this.props.deleteMember(member.id)}
-              style={{marginLeft:15}}
-            >
-              Delete
-            </button>
-          </div>
+        <div  className="list">
+          <article className="br3 ba b--black-10 mv4 w-100 w-150-m w-200-l mw6 shadow-5 center">
+            <div key={member.id}>
+              <div className="pa4 black-80">
+                <p className="f4 fw6 ph0 mh0">{member.userName}</p>
+                <p className="f4 fw6 ph0 mh0">{member.email}</p>
+              </div>
+              <div className="pa4 black-80">
+                <Link 
+                  className="b ph3 pv2 input-reset ba b--black bg-transparent br3 grow pointer f6 dib"
+                  to={`/members/update/${member.id}`}>Edit</Link>
+                <button
+                  className="b ph3 pv2 input-reset ba b--red bg-transparent br3 grow pointer f6 dib"
+                  onClick={() => this.props.deleteMember(member.id)}
+                  style={{marginLeft:15}}
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </article>
         </div>
       );
     });
