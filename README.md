@@ -10,4 +10,5 @@
 --- In folder idea-case run npm run dev, it should run hot reloading server on localhost:5000 and fronted on port 3000.
 
 ### References:
---- For this app we checked example by Stephen Grinder, course NodeJS on udemy.com 
+--- For this app we checked example by Stephen Grinder, course NodeJS on udemy.com
+--- Traversy media on youtube 
