@@ -37,7 +37,7 @@ class MemberForm extends Component {
     const { handleSubmit } = this.props;
 
     return (
-      <aticle className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+      <aticle className="br3 ba b--black-10 mv4 w-100 w-50-m w-250-l mw6 shadow-5 center">
         <div className="pa4 black-80">
           <h3 className="f2 fw6 ph0 mh0"
             style={{ marginTop: '1em' }}>

@@ -22,10 +22,10 @@ class Form extends Component {
           )
         case 'radio':
           return (
-            <div>
-              <label>{label}</label>
-              <div>
-                <label>
+            <div className="mv3">
+              <label className="db fw6 lh-copy f5">{label}</label>
+              <div className="mv3">
+                <label className="db fw6 lh-copy f5">
                   <Field
                     name="isReadyForComments"
                     component="input"
@@ -34,7 +34,7 @@ class Form extends Component {
                   />
                   Yes
                 </label>
-                <label>
+                <label className="db fw6 lh-copy f5">
                   <Field
                     name="isReadyForComments"
                     component="input"
