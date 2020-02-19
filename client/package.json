@@ -7,7 +7,7 @@
     "lodash": "^4.17.13",
     "material-design-icons": "^3.0.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.3.3",
     "react-particles-js": "^2.1.2",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
