@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^3.5.1",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "knex": "^0.19.5",
     "mysql": "^2.15.0",
     "nodemon": "^1.12.1"
